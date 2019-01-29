@@ -2,7 +2,17 @@
 Chrooting Alpine Linux Is Fun! Also Featured In UserLAnd: [Check It Out!](https://github.com/CypherpunkArmory/UserLAnd-Assets-Alpine)
 
 ### Prebuilts
-I have some prebuilt for x86 and x86_64. I will get aarch64 and armhf working soon!
+to use prebuilts you must clone the repo
+
+to put the prebuit tar.gz's back together:
+
+cd Alpine-Linux-Chroot/(arch)
+
+`sudo cat rootfs.tar.gz.part00 rootfs.tar.gz.part01 rootfs.tar.gz.part02 >rootfs.tar.gz`
+
+extract the archive
+
+and then you can chroot into it
 
 ### How To Build Source For Yourself
 alpine-chroot is like the buildArch script. but for any pc.
@@ -10,6 +20,8 @@ alpine-chroot is like the buildArch script. but for any pc.
 first you will need to download Alpine-Chroot.sh
 
 `sudo sh Alpine-Chroot.sh (arch: x86_64 x86 aarch64 or armhf)`
+
+
 
 ### How to use alpine
 here are some simple commands:
