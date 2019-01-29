@@ -1,7 +1,7 @@
 # Alpine-Linux-Chroot
 Chrooting Alpine Linux Is Fun! Also Featured In UserLAnd: [Check It Out!](https://github.com/CypherpunkArmory/UserLAnd-Assets-Alpine)
 
-And Don't Wrorry i added alpine to UserLAnd so I have some rights
+And Don't Wrorry  added alpine to UserLAnd so I have some rights
 
 ### Other Importent Stuff
 : [Wiki](https://github.com/EnderNightLord-ChromeBook/Alpine-Linux-Chroot/wiki)
