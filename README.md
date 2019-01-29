@@ -22,4 +22,6 @@ alpine-chroot is like the buildArch script. but for any pc.
 
 first you will need to download Alpine-Chroot.sh
 
+`wget https://github.com/EnderNightLord-ChromeBook/Alpine-Linux-Chroot/blob/master/Alpine-Chroot.sh`
+
 `sudo sh Alpine-Chroot.sh (arch: x86_64 x86 aarch64 or armhf)`
