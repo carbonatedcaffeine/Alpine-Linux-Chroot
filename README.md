@@ -11,10 +11,10 @@ first you will need to download Alpine-Chroot.sh
 
 `sudo sh Alpine-Chroot.sh (arch: x86_64 x86 aarch64 or armhf)`
 
-How to use alpine
+### How to use alpine
 here are some simple commands:
 
-apk add etc...
+apk (command)
 
 * add	Add new packages to the running system
 
