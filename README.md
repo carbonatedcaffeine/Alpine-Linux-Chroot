@@ -1,7 +1,5 @@
 # Alpine-Linux-Chroot
-Chrooting Alpine Linux Is Fun!
-
-Also Featured In UserLAnd: [Check It Out!](https://github.com/CypherpunkArmory/UserLAnd-Assets-Alpine)
+Chrooting Alpine Linux Is Fun! Also Featured In UserLAnd: [Check It Out!](https://github.com/CypherpunkArmory/UserLAnd-Assets-Alpine)
 
 alpine-chroot is like the buildArch script. but for any pc.
 
