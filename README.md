@@ -6,6 +6,12 @@ And Don't Wrorry I Added Alpine To UserLAnd so I Have Some Rights
 ### Other Importent Stuff
 : [Wiki](https://github.com/EnderNightLord-ChromeBook/Alpine-Linux-Chroot/wiki)
 
+#### Other Projects
+
+* https://github.com/EnderNightLord-ChromeBook/Debian-Chroot
+
+* https://github.com/EnderNightLord-ChromeBook/Ubuntu-Chroot
+
 ### Prebuilts
 to use prebuilts you must clone the repo
 
