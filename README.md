@@ -37,3 +37,7 @@ first you will need to download Alpine-Chroot.sh
 `sudo sh Alpine-Chroot.sh (arch: x86_64 x86 aarch64 or armhf)`
 
 `sudo chroot $CHROOT /bin/sh -l`
+
+### Thanks To
+
+Alpine Linux: https://alpinelinux.org/ Small. Simple. Secure.
