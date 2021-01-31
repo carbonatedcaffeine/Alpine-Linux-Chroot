@@ -1,31 +1,35 @@
-#! /bin/bash
+#!/bin/bash
 
 export ARCH_DIR=output/${1}
 export ROOTFS_DIR=$ARCH_DIR/rootfs
 
 case "$1" in
-    armhf) export ARCH_BOOTSTRAP_ARCH_OPT=armv7h
+    armhf)
+        export ARCH_BOOTSTRAP_ARCH_OPT=armv7h
         export ARCH_BOOTSTRAP_QEMU_OPT=-q
         ;;
-    aarch64) export ARCH_BOOTSTRAP_ARCH_OPT=aarch64
+    aarch64)
+        export ARCH_BOOTSTRAP_ARCH_OPT=aarch64
         export ARCH_BOOTSTRAP_QEMU_OPT=-q
         ;;
-    x86) export ARCH_BOOTSTRAP_ARCH_OPT=i686
+    x86)
+         export ARCH_BOOTSTRAP_ARCH_OPT=i686
         ;;
-    x86_64) export ARCH_BOOTSTRAP_ARCH_OPT=x86_64
+    x86_64)
+        export ARCH_BOOTSTRAP_ARCH_OPT=x86_64
         ;;
-    all) exit
-        ;;
-    *) echo "unsupported arch"
+    *)
+        echo "usage: $(basename $0) <arch>"
+        echo "        arch: the chroot architecture"
         exit
         ;;
 esac
 
 MIRROR=http://dl-5.alpinelinux.org/alpine
 ARCH=$1
-CHROOT=alpine-chroot-newest
+CHROOT=$ARCH-alpine-newest
 VERSION=latest-stable
-APK_TOOL=apk-tools-static-2.10.1-r0.apk
+APK_TOOL=apk-tools-static-2.12.1-r0.apk
 
 if [ -d $CHROOT ]
 then
