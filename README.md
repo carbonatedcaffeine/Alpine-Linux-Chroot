@@ -1,12 +1,12 @@
 # Alpine-Linux-Chroot
-Chrooting Alpine Linux Is Fun! Also Featured In UserLAnd: [Check It Out!](https://github.com/CypherpunkArmory/UserLAnd-Assets-Alpine)
+Chrooting Alpine Linux is fun! also featured in UserLAnd: [Check it out!](https://github.com/CypherpunkArmory/UserLAnd-Assets-Alpine)
 
-And Don't Wrorry I Added Alpine To UserLAnd so I Have Some Rights
+And don't worry, I added Alpine to UserLAnd so I have some rights
 
-### Other Importent Stuff
+### Other important stuff
 : [Wiki](https://github.com/EnderNightLord-ChromeBook/Alpine-Linux-Chroot/wiki)
 
-#### Other Projects
+#### Other projects
 
 * https://github.com/EnderNightLord-ChromeBook/Debian-Chroot
 
@@ -27,7 +27,7 @@ and then you can chroot into it
 
 `sudo chroot $CHROOT /bin/sh -l`
 
-### How To Build Source For Yourself
+### How to build source for yourself
 alpine-chroot is like the buildArch script. but for any pc.
 
 first you will need to download Alpine-Chroot.sh
@@ -38,6 +38,6 @@ first you will need to download Alpine-Chroot.sh
 
 `sudo chroot $CHROOT /bin/sh -l`
 
-### Thanks To
+### Thanks to
 
 Alpine Linux: https://alpinelinux.org/ Small. Simple. Secure.
