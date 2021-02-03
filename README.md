@@ -1,16 +1,8 @@
 # Alpine-Linux-Chroot
 Chrooting Alpine Linux is fun! also featured in UserLAnd: [Check it out!](https://github.com/CypherpunkArmory/UserLAnd-Assets-Alpine)
 
-And don't worry, I added Alpine to UserLAnd so I have some rights
-
 ### Other important stuff
 : [Wiki](https://github.com/EnderNightLord-ChromeBook/Alpine-Linux-Chroot/wiki)
-
-#### Other projects
-
-* https://github.com/EnderNightLord-ChromeBook/Debian-Chroot
-
-* https://github.com/EnderNightLord-ChromeBook/Ubuntu-Chroot
 
 ### Prebuilts
 to use prebuilts you must clone the repo
