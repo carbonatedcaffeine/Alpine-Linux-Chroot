@@ -29,7 +29,7 @@ MIRROR=http://dl-5.alpinelinux.org/alpine
 ARCH=$1
 CHROOT=$ARCH-alpine-newest
 VERSION=latest-stable
-APK_TOOL=apk-tools-static-2.12.1-r0.apk
+APK_TOOL=apk-tools-static-2.12.10-r1.apk
 
 if [ -d $CHROOT ]
 then
